@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on lifeofdan</title>
+    <link>https://lifeofdan.github.io/tags/education/</link>
+    <description>Recent content in Education on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    <lastBuildDate>Fri, 25 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lifeofdan.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Professional Development, Selling Me Apples</title>
+      <link>https://lifeofdan.github.io/posts/2017-8-25-professional-development/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-8-25-professional-development/</guid>
+      <description>So, yesterday I attended a professional development course. For anyone who doesn&amp;rsquo;t know, if you are a teacher in Queensland Australia you are required to attend at least 20 hours of professional development courses. This really isn&amp;rsquo;t that much and is easily achievable. Especially since most schools run some kind of professional development internally. (I&amp;rsquo;m going to call professional development &amp;ldquo;CPD&amp;rdquo; because it stands for &amp;ldquo;continuing professional development&amp;rdquo; from now on to shorten things.</description>
+    </item>
+    
+  </channel>
+</rss>

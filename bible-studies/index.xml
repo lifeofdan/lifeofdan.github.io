@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bible Studies on lifeofdan</title>
+    <link>https://lifeofdan.github.io/bible-studies/</link>
+    <description>Recent content in Bible Studies on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    
+	<atom:link href="https://lifeofdan.github.io/bible-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1 John</title>
+      <link>https://lifeofdan.github.io/bible-studies/1john/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/1john/</guid>
+      <description>1 John Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place
+Who is writing the book? Answer: The Apostle John the son of Zebedee, the disciple whom Jesus loved
+Who is the book written to? Answer: Christians. It is not specific in exactly who it is written to, but it is obviously written to believers.
+For what time and purpose is the book written? Answer: Christian Age.</description>
+    </item>
+    
+    <item>
+      <title>Matthew</title>
+      <link>https://lifeofdan.github.io/bible-studies/matthew/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/matthew/</guid>
+      <description>Matthew Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place.
+Who is writing the book? Answer: The Disciple Matthew
+Who is the book written to? Answer: Jewish Christians
+For what time and purpose is the book written? Answer: Christian Age. It is written to tell Jewish Christians about Jesus Christ.
+Chapter 1 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 2 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 3 Introduction Has AATorP Changed?</description>
+    </item>
+    
+  </channel>
+</rss>

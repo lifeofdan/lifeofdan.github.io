@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>AMD, Linux, Thoughts on Distros</title>
+  <meta property="og:title" content="AMD, Linux, Thoughts on Distros" />
+  <meta name="twitter:title" content="AMD, Linux, Thoughts on Distros" />
+  <meta name="description" content="Image linked from itsfoss.com
+Okay, so my last post was a bit frustrated. I continue to exist in that state of being. :P
+This Christmas I built a new computer. Nothing super fancy, but a very nice upgrade for me from a i5 2500k to now running a e3 1230 v5 Xeon processor. I am also running an AMD R9 Fury graphics card. The rationale for the new graphics card and CPU was to run a Windows VM for my gaming with GPU Passthrough.">
+  <meta property="og:description" content="Image linked from itsfoss.com
+Okay, so my last post was a bit frustrated. I continue to exist in that state of being. :P
+This Christmas I built a new computer. Nothing super fancy, but a very nice upgrade for me from a i5 2500k to now running a e3 1230 v5 Xeon processor. I am also running an AMD R9 Fury graphics card. The rationale for the new graphics card and CPU was to run a Windows VM for my gaming with GPU Passthrough.">
+  <meta name="twitter:description" content="Image linked from itsfoss.com
+Okay, so my last post was a bit frustrated. I continue to exist in that state of being. :P
+This Christmas I built a new computer. Nothing super fancy, but a very nice …">
+  <meta name="author" content="Dan"/>
+  <link href='https://lifeofdan.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://lifeofdan.github.io/img/my-avatar.jpg" />
+  <meta name="twitter:image" content="https://lifeofdan.github.io/img/my-avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://lifeofdan.github.io/posts/2017-4-24-amd-linux-thoughts-on-distros/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="lifeofdan" />
+
+  <meta name="generator" content="Hugo 0.26" />
+  <link rel="canonical" href="https://lifeofdan.github.io/posts/2017-4-24-amd-linux-thoughts-on-distros/" />
+  <link rel="alternate" href="https://lifeofdan.github.io/index.xml" type="application/rss+xml" title="lifeofdan">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://lifeofdan.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://lifeofdan.github.io/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://lifeofdan.github.io/css/highlight.min.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://lifeofdan.github.io">lifeofdan</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/posts/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Christianity</a>
+              <div class="navlinks-children">
+                
+                  <a href="/bible-studies/">Bible Studies</a>
+                
+                  <a href="/communion/">Communion Meditations</a>
+                
+                  <a href="/sermons/">sermons</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="lifeofdan" href="https://lifeofdan.github.io">
+            <img class="avatar-img" src="https://lifeofdan.github.io/img/my-avatar.jpg" alt="lifeofdan" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              <h1>AMD, Linux, Thoughts on Distros</h1>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p><img src="https://itsfoss.com/wp-content/uploads/2016/09/Linux-Gaming-Problems.jpg" alt="Linux Gaming Problems" /></p>
+
+<p>Image linked from <a href="https://itsfoss.com/linux-gaming-problems/">itsfoss.com</a></p>
+
+<p>Okay, so my last post was a bit frustrated. I continue to exist in that state of being. :P</p>
+
+<p>This Christmas I built a new computer. Nothing super fancy, but a very nice upgrade for me from a i5 2500k to now running a e3 1230 v5 Xeon processor. I am also running an AMD R9 Fury graphics card. The rationale for the new graphics card and CPU was to run a Windows VM for my gaming with GPU Passthrough. I considered writing up a tutorial on how I accomplished this under Neon but I think I would need to do it a couple more times before I was comfortable doing so. I digress&hellip; This computer did okay. I had 16gb ram (that is definitely the minimum you want if you are to attempt this) an NVIDIA GTX 970 and an AMD R9 Fury, the NVIDIA card was for Linux and the Fury was for the Windows VM. This worked rather well. Unfortunately I knocked a nice cold beverage into my computer&hellip;My desktop was on the floor beside my table, the liquid came down through the top fan vents. Anyway, it could have been much worse. The only thing that got ruined was my GTX 970! While that is a costly mistake, it wasn&rsquo;t the end of the machine. However, in this process my hard drives became corrupted and I couldn&rsquo;t boot. Bye, bye Neon install.</p>
+
+<p>The next couple of weeks had me distro hopping. One thing I knew for certain was that I wanted to go back to Gnome. I enjoyed my time with KDE Plasma, and there are DEFINITELY great things happening there, but there were little niggles that I really just didn&rsquo;t want to put up with anymore. You can see my previous post to see what those were.</p>
+
+<p>So, requirements:</p>
+
+<ol>
+<li>Gnome</li>
+<li>Be able to run the apps I need.
+
+<ul>
+<li>Discord</li>
+<li>WPS Office</li>
+<li>Wire</li>
+<li>Text Editor (I&rsquo;m not picky.)</li>
+<li>Skype (For work)</li>
+<li>Keepassxc or something similar</li>
+</ul></li>
+</ol>
+
+<p>Almost any distro could supply those needs, and the distros I tried would have had all of these things. Unfortunately, I play games. This is where all my troubles lie.</p>
+
+<ol>
+<li>World of Warcraft</li>
+<li>Guild Wars 2</li>
+<li>Steam Games (No troubles here)</li>
+</ol>
+
+<p>As you can see, two of the games I love to play require WINE. Because I have an AMD GPU I also need to use <a href="https://wiki.ixit.cz/d3d9"><strong>Gallium Nine</strong></a> in order to have any decent frames and playability. That means I also need to Gallium Nine patched version of wine. So&hellip;I tried:</p>
+
+<h2 id="opensuse-tumbleweed">openSUSE Tumbleweed</h2>
+
+<p>I love openSUSE. It was the first distro that I ever used with any success. I enjoyed it a LOT. However, it has been a long time since I have used it and things did not go as smoothly as I had hoped. I installed the gallium patched stuff, but the maintainer seems to have gone afk and I there are new ones that have picked stuff up, but the install just didn&rsquo;t work well. The graphics were bad and I couldn&rsquo;t get the patched wine to work. I also had a lot of issues with the firewall in openSUSE. It was not UFW. Lawl.</p>
+
+<h2 id="fedora-25">Fedora 25</h2>
+
+<p>I like the idea of running Fedora. While opensuse was the first distro I really had any success with, Fedora was the first distro I ever used, or more specifically Red Hat. I got a CD of Red Hat back in 2003. It was actually around the time that fedora became a thing. I installed Red Hat but quickly found out online that I should be running Fedora Core. I installed and played around, but I didn&rsquo;t really use it for long, it was more of to see if I could do it. It was cool.</p>
+
+<p>When trying to use it for this aspect, it failed. I tried installing gallium patched wine and the mesa from COPR repos, but I didn&rsquo;t have any success. I got things to run, but it was unplayable. I now think it was probably a MESA problem, but I decided it wasn&rsquo;t work my time and reformatted.</p>
+
+<h2 id="arch-manjaro-antergos">Arch/Manjaro/Antergos</h2>
+
+<p>Everything I needed was here. But due to knowing several people recently that have had system issues due to graphics driver problems, I didn&rsquo;t really feel as comfortable with Arch as I have in the past. Don&rsquo;t get me wrong, I have actually been running Arch with little to no problems for the past three years. However, I am also a constant distro hopper, which I believe has mitigated many problems that I could have run into.</p>
+
+<h2 id="solus">Solus</h2>
+
+<p>Let me say, I LOVE Solus. The desktop just WORKS so well. I didn&rsquo;t go with Budgie, I used the info on the website to go with Gnome-Shell. Since doing this Solus has even released a Gnome-Shell .iso, which I really, really want to try. Solus was <strong>blazing</strong> fast. It booted insanely quick and everything was smooth as silk. The hype is real.</p>
+
+<p>Also, Steam integration on that platform is amazing. Games played WAY better there than on Neon. I did have some issues with my Steam Controller, but that all came down to user error.</p>
+
+<p>Unfortunately, one of the things that makes Solus great, also makes it hard in my use case. Solus does not put things in the repos that is already there. For instance, Wine Stable is in the repo. But I don&rsquo;t need Wine Stable, I need a Gallium Nine Patched wine&hellip;yeah&hellip;good luck with that. The whole philosophy of Solus says to have one thing to do a task so that the desktop isn&rsquo;t riddled with package dependencies that then break when using a different program that uses a different dependency. It is a good philosophy&hellip;but it makes it impossible to play the games I play.</p>
+
+<p>I did briefly try making the patches to my system myself. I go them &ldquo;installed&rdquo; but I could not select the check-box to get the gallium patch activated on wine. I believe I didn&rsquo;t have MESA patched properly, or I needed to install the mesa first, and then the wine patched version, but I had a raid the next day and didn&rsquo;t have time to fiddle with it anymore. I will probably find myself back on Solus if I can ever figure this out because I loved every second on it. (Their IRC is awesome.)</p>
+
+<h2 id="ubuntu-gnome">Ubuntu-Gnome</h2>
+
+<p>This is where I find myself. Ubuntu Gnome. It technically has everything I need. The drivers I needed for the patched mesa &amp; wine were a ppa away. All of my software was easy to install. Everything just works&hellip;but it is boring.</p>
+
+<p>Everything works, but there is nothing exciting about this install. It runs well, but it doesn&rsquo;t blow my mind with its speed. It boots pretty fast, but not as fast as Solus. Everything installed, but I did have to mess with dependencies. Everything works, but it isn&rsquo;t rolling. There are little crashes but nothing that really effects my work. (Plymouth crashes, there used to be Nautilus crashes but I fixed that.) Some other crashes to programs happen occasionally as well, but nothing system wide or anything. Basically, there are little bugs, but nothing terribly earth shattering&hellip;so why am I discontent?</p>
+
+<h2 id="where-will-i-be-down-the-road">Where will I be down the road?</h2>
+
+<p>I don&rsquo;t know. For the present I am too busy to be reformatting my machine to mess with things. If I can get my hands on another SSD I might try throwing Solus on it and trying to fix my niggles on it. Solus is where I want to be. I like the team&rsquo;s vision of things just working. I like that I can actually just go talk to the lead developer in IRC. I like their software center. I like how fast everything is. I like how they have updated Steam integration, If I can get my games going, I will stay there.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/" data-toggle="tooltip" data-placement="top" title="KDE Neon Frustrations...">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://lifeofdan.github.io/posts/2017-8-5-hard-times/" data-toggle="tooltip" data-placement="top" title="Hard Times">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:contact@lifeofdan.me" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/lifeofdan" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/CorazineDru" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://lifeofdan.github.io/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="lifeofdan.me">Dan</a>
+                      
+          
+          
+          &nbsp;&bull;&nbsp;
+          2017
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://lifeofdan.github.io">lifeofdan</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.26</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://lifeofdan.github.io/js/main.js"></script>
+<script src="https://lifeofdan.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="https://lifeofdan.github.io/js/load-photoswipe.js"></script>
+
+
+
+  </body>
+</html>
+

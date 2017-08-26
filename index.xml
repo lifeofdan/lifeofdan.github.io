@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lifeofdan</title>
+    <link>https://lifeofdan.github.io/</link>
+    <description>Recent content on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    <lastBuildDate>Fri, 25 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lifeofdan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Professional Development, Selling Me Apples</title>
+      <link>https://lifeofdan.github.io/posts/2017-8-25-professional-development/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-8-25-professional-development/</guid>
+      <description>So, yesterday I attended a professional development course. For anyone who doesn&amp;rsquo;t know, if you are a teacher in Queensland Australia you are required to attend at least 20 hours of professional development courses. This really isn&amp;rsquo;t that much and is easily achievable. Especially since most schools run some kind of professional development internally. (I&amp;rsquo;m going to call professional development &amp;ldquo;CPD&amp;rdquo; because it stands for &amp;ldquo;continuing professional development&amp;rdquo; from now on to shorten things.</description>
+    </item>
+    
+    <item>
+      <title>Redesign</title>
+      <link>https://lifeofdan.github.io/posts/2017-8-24-redesign/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-8-24-redesign/</guid>
+      <description>It is that time again. I quite liked the old layout of the site. However, I had installed jekyll (the backend of this site) on a different computer and couldn&amp;rsquo;t figure out how to update the thing and it was many versions behind. So, I reinstalled jekyll to my main rig, deleted the old repo and then loaded fresh. (I am a nuke and pave kind of a guy&amp;hellip;I admit it.</description>
+    </item>
+    
+    <item>
+      <title>Hard Times</title>
+      <link>https://lifeofdan.github.io/posts/2017-8-5-hard-times/</link>
+      <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-8-5-hard-times/</guid>
+      <description>Hard times.
+We all have them. Some hard times are more genuine than others. Dropping your ice-cream cone, while detrimental when you are two years old, is really not as serious as loss of a job, or loss of a loved one, or loss of personal health or safety.</description>
+    </item>
+    
+    <item>
+      <title>AMD, Linux, Thoughts on Distros</title>
+      <link>https://lifeofdan.github.io/posts/2017-4-24-amd-linux-thoughts-on-distros/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-4-24-amd-linux-thoughts-on-distros/</guid>
+      <description>Image linked from itsfoss.com
+Okay, so my last post was a bit frustrated. I continue to exist in that state of being. :P
+This Christmas I built a new computer. Nothing super fancy, but a very nice upgrade for me from a i5 2500k to now running a e3 1230 v5 Xeon processor. I am also running an AMD R9 Fury graphics card. The rationale for the new graphics card and CPU was to run a Windows VM for my gaming with GPU Passthrough.</description>
+    </item>
+    
+    <item>
+      <title>KDE Neon Frustrations...</title>
+      <link>https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/</guid>
+      <description>It has been a month since my last post. I seem to be churning out one of these a month, and that is okay with me. I normally stop doing this after a couple of days. I really like being able to keep track of the work I am doing and being able to access it remotely from a variety of devices. I don&amp;rsquo;t want to make this site something that has ways to comment or anything like that.</description>
+    </item>
+    
+    <item>
+      <title>the newness has worn off</title>
+      <link>https://lifeofdan.github.io/posts/2017-02-16-the-newness-has-worn-off/</link>
+      <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-02-16-the-newness-has-worn-off/</guid>
+      <description>A second post? Whaaaaat! I cannot believe I am about to write the second post on a site that I have created. I really enjoy the process of creating the site and making it work. I generally don&amp;rsquo;t care about actually using it. But, this seems kind of special to me.
+I have been working more and more with git. I really like it. I haven&amp;rsquo;t really used the more advanced functions that it offers, but I believe I am learning the basics.</description>
+    </item>
+    
+    <item>
+      <title>lifeofdan site launched</title>
+      <link>https://lifeofdan.github.io/posts/2017-01-30-first-post-lifeofdan/</link>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-01-30-first-post-lifeofdan/</guid>
+      <description>Well, I am finally putting up a site that I believe I will maintain. I have put up many sites throughout the years, but they always fall into dissaray. This time I actually need this site. I need it to work so that I can work.
+I am super excited, and if you are reading this&amp;hellip;don&amp;rsquo;t you have anything better to do?</description>
+    </item>
+    
+    <item>
+      <title>1 John</title>
+      <link>https://lifeofdan.github.io/bible-studies/1john/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/1john/</guid>
+      <description>1 John Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place
+Who is writing the book? Answer: The Apostle John the son of Zebedee, the disciple whom Jesus loved
+Who is the book written to? Answer: Christians. It is not specific in exactly who it is written to, but it is obviously written to believers.
+For what time and purpose is the book written? Answer: Christian Age.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://lifeofdan.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/page/about/</guid>
+      <description>Just your typical Christian, husband, father, teacher, minister, gamer, guitar player, linux enthusiast, computer builder, tech juknie.
+I love my family. I like virtually all things technology. I enjoy meeting with my Church. I enjoy all of the students that I teach. I like to play video games and I like learning new things. For example, I am learning about github and jekyll while putting up this website. Too cool. Hobbies are fun.</description>
+    </item>
+    
+    <item>
+      <title>Let Me Be Overtaken</title>
+      <link>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</guid>
+      <description>Recently I have begun to listen to the Psalms as I am driving around. I find most of them to be comforting or encouraging. The language is so grand. For example:
+Psalms 1:1-2 starts this book out&amp;hellip;
+ Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers; but his delight is in the law of the Lord, and on his law he meditates day and night.</description>
+    </item>
+    
+    <item>
+      <title>Matthew</title>
+      <link>https://lifeofdan.github.io/bible-studies/matthew/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/matthew/</guid>
+      <description>Matthew Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place.
+Who is writing the book? Answer: The Disciple Matthew
+Who is the book written to? Answer: Jewish Christians
+For what time and purpose is the book written? Answer: Christian Age. It is written to tell Jewish Christians about Jesus Christ.
+Chapter 1 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 2 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 3 Introduction Has AATorP Changed?</description>
+    </item>
+    
+    <item>
+      <title>Matthew 23 - Woe To You Part 1</title>
+      <link>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part1/</guid>
+      <description>One of the biggest claims against the church of today is that it is full of hypocrites. Unfortunately, that is many times true. I have heard it said many times that &amp;ldquo;Of course the Church is full of hypocrites!&amp;rdquo; &amp;ldquo;We are imperfect people and we have sin, we recognize it, and that is why we are at church in the first place!&amp;rdquo;
+I have oftentimes agreed with this sentiment. I know that I am not perfect and I know that I have sin.</description>
+    </item>
+    
+    <item>
+      <title>Matthew 23 Woe To You Part 2</title>
+      <link>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part2/</guid>
+      <description>Matthew Chapter 23 is one that is quite famous and well known. I think the reason for that is that hypocrisy is something that we all see and can identify, perhaps daily in our lives or the lives of the people or institutions around us. I think one of the other reasons that this passage is so famous is because there is a passion that comes through the text from the words of Jesus that stirs us.</description>
+    </item>
+    
+    <item>
+      <title>Not What We Expect (What We Need)</title>
+      <link>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</guid>
+      <description>Revelation is an interesting book. Just making that statement probably fills most of you with worry. You are thinking &amp;ldquo;Oh dear, what is he going to say. What thing is he going to talk about that probably makes no sense whatsoever.&amp;rdquo; None the less, it is an interesting book, that is filled with hope for those who believe.
+The scripture I want to look at is:
+Revelation 5:1-5 ESV &amp;gt; 5 Then I saw in the right hand of him who was seated on the throne a scroll written within and on the back, sealed with seven seals.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on lifeofdan</title>
+    <link>https://lifeofdan.github.io/page/</link>
+    <description>Recent content in Pages on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    
+	<atom:link href="https://lifeofdan.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://lifeofdan.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/page/about/</guid>
+      <description>Just your typical Christian, husband, father, teacher, minister, gamer, guitar player, linux enthusiast, computer builder, tech juknie.
+I love my family. I like virtually all things technology. I enjoy meeting with my Church. I enjoy all of the students that I teach. I like to play video games and I like learning new things. For example, I am learning about github and jekyll while putting up this website. Too cool. Hobbies are fun.</description>
+    </item>
+    
+  </channel>
+</rss>

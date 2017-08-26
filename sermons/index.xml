@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sermons on lifeofdan</title>
+    <link>https://lifeofdan.github.io/sermons/</link>
+    <description>Recent content in Sermons on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    
+	<atom:link href="https://lifeofdan.github.io/sermons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matthew 23 - Woe To You Part 1</title>
+      <link>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part1/</guid>
+      <description>One of the biggest claims against the church of today is that it is full of hypocrites. Unfortunately, that is many times true. I have heard it said many times that &amp;ldquo;Of course the Church is full of hypocrites!&amp;rdquo; &amp;ldquo;We are imperfect people and we have sin, we recognize it, and that is why we are at church in the first place!&amp;rdquo;
+I have oftentimes agreed with this sentiment. I know that I am not perfect and I know that I have sin.</description>
+    </item>
+    
+    <item>
+      <title>Matthew 23 Woe To You Part 2</title>
+      <link>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part2/</guid>
+      <description>Matthew Chapter 23 is one that is quite famous and well known. I think the reason for that is that hypocrisy is something that we all see and can identify, perhaps daily in our lives or the lives of the people or institutions around us. I think one of the other reasons that this passage is so famous is because there is a passion that comes through the text from the words of Jesus that stirs us.</description>
+    </item>
+    
+  </channel>
+</rss>
