@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Hugo Setup</title>
+  <meta property="og:title" content="Hugo Setup" />
+  <meta name="twitter:title" content="Hugo Setup" />
+  <meta name="description" content="(Image linked from https://themes.gohugo.io/theme/hugo-now/)
+Well, it has been one day since I finished the installation of Hugo as my blogging backend. Wow. It was a bit of a mess. I need to first say that now that everything is up and running, I really like it. Once set up, it makes a lot of sense in the way they have chosen to do things. However, it was a bear to get my head around the setup.">
+  <meta property="og:description" content="(Image linked from https://themes.gohugo.io/theme/hugo-now/)
+Well, it has been one day since I finished the installation of Hugo as my blogging backend. Wow. It was a bit of a mess. I need to first say that now that everything is up and running, I really like it. Once set up, it makes a lot of sense in the way they have chosen to do things. However, it was a bear to get my head around the setup.">
+  <meta name="twitter:description" content="(Image linked from https://themes.gohugo.io/theme/hugo-now/)
+Well, it has been one day since I finished the installation of Hugo as my blogging backend. Wow. It was a bit of a mess. I need to first …">
+  <meta name="author" content="Dan"/>
+  <link href='https://lifeofdan.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://lifeofdan.github.io/img/my-avatar.jpg" />
+  <meta name="twitter:image" content="https://lifeofdan.github.io/img/my-avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://lifeofdan.github.io/posts/hugo-setup/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="lifeofdan" />
+
+  <meta name="generator" content="Hugo 0.26" />
+  <link rel="canonical" href="https://lifeofdan.github.io/posts/hugo-setup/" />
+  <link rel="alternate" href="https://lifeofdan.github.io/index.xml" type="application/rss+xml" title="lifeofdan">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://lifeofdan.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://lifeofdan.github.io/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://lifeofdan.github.io/css/highlight.min.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://lifeofdan.github.io">lifeofdan</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/posts/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Christianity</a>
+              <div class="navlinks-children">
+                
+                  <a href="/bible-studies/">Bible Studies</a>
+                
+                  <a href="/communion/">Communion Meditations</a>
+                
+                  <a href="/sermons/">sermons</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="lifeofdan" href="https://lifeofdan.github.io">
+            <img class="avatar-img" src="https://lifeofdan.github.io/img/my-avatar.jpg" alt="lifeofdan" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="posts-heading">
+              <h1>Hugo Setup</h1>
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkoAAACECAMAAABYgPRGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANJQTFRFREREiIiIf39/9qnKu7u7Pz8/1lCeERERZmZm7u7u2zCMzMzMmZmZIiIi+tPk3d3dDw8P8n+yqqqqv7+/MzMz7+/vX19fz8/Pd3d3/PD339/f7Emayxp/zCWGVVVV+OLvj4+PLy8v5Iu+Hx8f6UaY3W2un5+f0DOO8cXfT09P0SOE1iiIzx+CzR2Bb29v00KW66jO4DiQr6+v55nG5ECU4juS4Xy22l+m7rbX50SV0yWG9dPn2C2K3TOO8Gin9JS++L3XyRd+7kyb////AAAA////rSR8yAAAAEZ0Uk5T////////////////////////////////////////////////////////////////////////////////////////////AGmWRNAAAA0vSURBVHja7J17Q6pKF8bBjYkJB7elmZpZ2c3K3b19O+e8cuD7f6UXBIa5rMHBaAe6nv+SBRrzc9Yza4ZR81GoQqThLUAhSihECYUooVCIEgpRQiFKKEQJhUKUUIgSClFCoRAlVClQOn463zlaLBaXO6/3x3gbUeuidP9tQevtCm8kah2UrliQQu38wluJKOVObW8LSK+HeDMRpTw6PF1IdPSEdxNRymGSLhdyXaJlQpRUTdLOIls7OJhDlFRM0vlitU7RMiFKq3R6tFDR0T3eVEQpS98vF6r6hpYJUZLqF2iSZoFuoQPnaJkQJbgA8CrAMrp5mbqRpg83IyHLoWVClAA9CSbp7sFlNNwVYLpEy4Qo8QUAwSSNdl1Bw984l4IoZRcARJN0M3UhTWeiZcIshyglJkmcJZk9uzI934mWCW8wohTqfqVJ4gRYpu94ixElYCnJ7tDN1vAG51IQJd4kiUtJfk7d1foxw+UniBJjkoTcdvvsqunlDpefIEqJxFmS0YOrLKjKhHMpW4nSobgC4PfQzaOpaJle8VZvH0qHgt2eTd28ehbm5s7xXm8bSgJJd8/uOnoYIUtbjtIbPEvy7xeirxA5/6THvySWiV8Vh3d7q1B64mZJEpP0139EXyCUvqbH/yOW6Sd7MfTe24TSMVMEuPtBUFkHJdd9YbLcJRaYtgglZvB2S43b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" alt="Hugo Logo" />
+(<em>Image linked from <a href="https://themes.gohugo.io/theme/hugo-now/">https://themes.gohugo.io/theme/hugo-now/</a></em>)</p>
+
+<p>Well, it has been one day since I finished the installation of Hugo as my blogging backend. Wow. It was a bit of a mess. I need to first say that now that everything is up and running,  I really like it. Once set up, it makes a lot of sense in the way they have chosen to do things. However, it was a bear to get my head around the setup. Jekyll was easy to get set up. Github is set up with Jekyll in mind, and that does make a difference. The way that Github is set up for static pages does not play as friendly with Hugo. The difference seems to lie in whether you used your &ldquo;name.github.io&rdquo; url or if you set up a new repo and then use that repo to launch your site. Depending on how you set up your Github makes a big difference on how you should deploy your site. Because I had just deployed Jekyll in the past, I was used to the way they do it. You make your name.github.io repo, you import your local Jekyll repo and <strong><em>Badabing</em></strong>, you are done. Hugo? Not so much. Hugo outlines ways to host, but it doesn&rsquo;t do a very good job of telling you <em>not</em> to use your &ldquo;name.github.io&rdquo; repository for hosting. It <em>does</em> talk about hosting from a <code>docs</code> folder, but it only <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch"><em>links to</em> a github page</a> telling you that if you are going to use the  <code>docs</code> folder that you <em>cannot</em> use your &ldquo;name.github.io&rdquo; repo. I&rsquo;m not saying the information is <em>not</em> there. I&rsquo;m just saying it isn&rsquo;t super explicit and does expect a certain level of background knowledge or understanding of all of the terminology that they are using in the instructions. <em>So here is what I had to do to get Hugo working</em>.</p>
+
+<p>Firstly, install Hugo. This step was super easy because it was in the <a href="https://solus-project.com">Solus</a> repo. I simply opened up the software center, searched for Hugo, installed and was good to go. I followed the <a href="http://gohugo.io/getting-started/quick-start/">quick start</a> guide on the Hugo website, which was excellently simple.</p>
+
+<p>The problems come with how Github hosts their static pages. If you want a static site, it need to live in the root of the repository, if it is a &ldquo;name.github.io&rdquo; account. (I did not realise until after the fact that I should have just used a different repo than the &ldquo;name.github.io&rdquo; account in order to get things working more simply.) Which is what I was using. However, Hugo does not put the static site in the root. It puts the static site, by default, in a folder named &ldquo;public&rdquo;. So, the solution? Submodules. I had never ever even heard of submodules before, but they are cool. I learned about them while watching a <a href="https://www.youtube.com/watch?v=3wkR8GyDODs">video on how to install Hugo</a>. (I knew I was doing something wrong because the info on that video didn&rsquo;t exactly suit my situation exactly.) They basically let you host a repo inside of your repo. So, I made a repo named &ldquo;hugo&rdquo;. I then hosted my local hugo directory inside of the &ldquo;hugo&rdquo; repo. I then created a submodule for my &ldquo;public&rdquo; folder that lives in my &ldquo;name.github.io&rdquo; repo. That way, my static site is in the root of my &ldquo;name.github.io&rdquo; repo. So, when I go to sync, I sync my local hugo folder to my hugo repo and my public folder to the &ldquo;name.github.io&rdquo; folder. Nifty.</p>
+
+<p>There was also an issue of <a href="https://themes.gohugo.io/">themes</a>. I performed the same incantation over the themes directory, pointing a submodule to the themes folder what houses the clone of the git repo that holds the theme I liked. Very, very, cool.</p>
+
+<p>As cool as this is, it took me most of a morning to figure all of this out. I had never worked with submodules before. I didn&rsquo;t know they were even a thing. None of the Hugo documentation suggests doing anything even remotely similar to this procedure.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://lifeofdan.github.io/posts/2017-8-25-professional-development/" data-toggle="tooltip" data-placement="top" title="Professional Development, Selling Me Apples">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:contact@lifeofdan.me" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/lifeofdan" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/CorazineDru" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://lifeofdan.github.io/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="lifeofdan.me">Dan</a>
+                      
+          
+          
+          &nbsp;&bull;&nbsp;
+          2017
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://lifeofdan.github.io">lifeofdan</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.26</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://lifeofdan.github.io/js/main.js"></script>
+<script src="https://lifeofdan.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+<script src="https://lifeofdan.github.io/js/load-photoswipe.js"></script>
+
+
+
+  </body>
+</html>
+
