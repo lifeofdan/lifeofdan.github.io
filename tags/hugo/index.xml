@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on lifeofdan</title>
+    <link>https://lifeofdan.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    <lastBuildDate>Sun, 27 Aug 2017 16:58:49 +1000</lastBuildDate>
+    
+	<atom:link href="https://lifeofdan.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Setup</title>
+      <link>https://lifeofdan.github.io/posts/hugo-setup/</link>
+      <pubDate>Sun, 27 Aug 2017 16:58:49 +1000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/hugo-setup/</guid>
+      <description>(Image linked from https://themes.gohugo.io/theme/hugo-now/)
+Well, it has been one day since I finished the installation of Hugo as my blogging back-end. Wow. It was a bit of a mess. I need to first say that now that everything is up and running, I really like it. Once set up, it makes a lot of sense in the way they have chosen to do things. However, it was a bear to get my head around the setup.</description>
+    </item>
+    
+  </channel>
+</rss>

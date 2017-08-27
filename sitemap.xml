@@ -77,7 +77,25 @@
   </url>
   
   <url>
+    <loc>https://lifeofdan.github.io/tags/gaming/</loc>
+    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/tags/hugo/</loc>
+    <lastmod>2017-08-27T16:58:49+10:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/tags/linux/</loc>
+    <lastmod>2017-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -115,6 +133,12 @@
   <url>
     <loc>https://lifeofdan.github.io/tags/</loc>
     <lastmod>2017-08-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/tags/web-design/</loc>
+    <lastmod>2017-08-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on lifeofdan</title>
+    <link>https://lifeofdan.github.io/tags/linux/</link>
+    <description>Recent content in Linux on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    <lastBuildDate>Thu, 16 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lifeofdan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KDE Neon Frustrations...</title>
+      <link>https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/</guid>
+      <description>It has been a month since my last post. I seem to be churning out one of these a month, and that is okay with me. I normally stop doing this after a couple of days. I really like being able to keep track of the work I am doing and being able to access it remotely from a variety of devices. I don&amp;rsquo;t want to make this site something that has ways to comment or anything like that.</description>
+    </item>
+    
+  </channel>
+</rss>

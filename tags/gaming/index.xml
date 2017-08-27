@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming on lifeofdan</title>
+    <link>https://lifeofdan.github.io/tags/gaming/</link>
+    <description>Recent content in Gaming on lifeofdan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
+    <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+    <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lifeofdan.github.io/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AMD, Linux, Thoughts on Distros</title>
+      <link>https://lifeofdan.github.io/posts/2017-4-24-amd-linux-thoughts-on-distros/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/2017-4-24-amd-linux-thoughts-on-distros/</guid>
+      <description>Image linked from itsfoss.com
+Okay, so my last post was a bit frustrated. I continue to exist in that state of being. :P
+This Christmas I built a new computer. Nothing super fancy, but a very nice upgrade for me from a i5 2500k to now running a e3 1230 v5 Xeon processor. I am also running an AMD R9 Fury graphics card. The rationale for the new graphics card and CPU was to run a Windows VM for my gaming with GPU Passthrough.</description>
+    </item>
+    
+  </channel>
+</rss>
