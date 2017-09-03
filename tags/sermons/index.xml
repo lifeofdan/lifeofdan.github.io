@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sermons on lifeofdan</title>
-    <link>https://lifeofdan.github.io/sermons/</link>
+    <link>https://lifeofdan.github.io/tags/sermons/</link>
     <description>Recent content in Sermons on lifeofdan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,7 +10,7 @@
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
     <lastBuildDate>Thu, 31 Aug 2017 11:04:51 +1000</lastBuildDate>
     
-	<atom:link href="https://lifeofdan.github.io/sermons/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lifeofdan.github.io/tags/sermons/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
