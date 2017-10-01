@@ -24,6 +24,15 @@ Well, it has been one day since I finished the installation of Hugo as my bloggi
     </item>
     
     <item>
+      <title>My First Hugo Post</title>
+      <link>https://lifeofdan.github.io/posts/my-first-hugo-post/</link>
+      <pubDate>Fri, 25 Aug 2017 15:52:58 +1000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/my-first-hugo-post/</guid>
+      <description>This is my first post using Hugo. I heard about it while watching &amp;ldquo;Linux Thursday&amp;rdquo; which is one of the shows on The Lunduke Show. They said it was faster and simpler than Jekyll, which is what I have been using. I had just spend most of the day yesterday setting up my Jekyll site and while I like Jekyll I am wondering if there is something a bit more streamlined.</description>
+    </item>
+    
+    <item>
       <title>Professional Development, Selling Me Apples</title>
       <link>https://lifeofdan.github.io/posts/2017-8-25-professional-development/</link>
       <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>

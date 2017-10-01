@@ -8,10 +8,22 @@
     <language>en-us</language>
     <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
-    <lastBuildDate>Thu, 31 Aug 2017 11:04:51 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2017 11:05:34 +1000</lastBuildDate>
     
 	<atom:link href="https://lifeofdan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Matthew23 WoeToYou Part 4</title>
+      <link>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part4/</link>
+      <pubDate>Tue, 26 Sep 2017 11:05:34 +1000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/sermons/matthew23-woetoyou-part4/</guid>
+      <description>This lesson continues the sermon series on the Woes to the Scribes and Pharisees. I had originally thought that this would take maybe two Sundays to go over, but I have really enjoyed diving a little deeper into these verses than I might normally, so I hope that you have found it useful as well.
+Before we begin though, let&amp;rsquo;s pray.
+Matthew 23:23-28 ESV
+ 23 “Woe to you, scribes and Pharisees, hypocrites!</description>
+    </item>
     
     <item>
       <title>Matthew23 WoeToYou Part 3</title>
@@ -33,6 +45,15 @@ Matthew 23:16-22
       <guid>https://lifeofdan.github.io/posts/hugo-setup/</guid>
       <description>(Image linked from https://themes.gohugo.io/theme/hugo-now/)
 Well, it has been one day since I finished the installation of Hugo as my blogging back-end. Wow. It was a bit of a mess. I need to first say that now that everything is up and running, I really like it. Once set up, it makes a lot of sense in the way they have chosen to do things. However, it was a bear to get my head around the setup.</description>
+    </item>
+    
+    <item>
+      <title>My First Hugo Post</title>
+      <link>https://lifeofdan.github.io/posts/my-first-hugo-post/</link>
+      <pubDate>Fri, 25 Aug 2017 15:52:58 +1000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/my-first-hugo-post/</guid>
+      <description>This is my first post using Hugo. I heard about it while watching &amp;ldquo;Linux Thursday&amp;rdquo; which is one of the shows on The Lunduke Show. They said it was faster and simpler than Jekyll, which is what I have been using. I had just spend most of the day yesterday setting up my Jekyll site and while I like Jekyll I am wondering if there is something a bit more streamlined.</description>
     </item>
     
     <item>
