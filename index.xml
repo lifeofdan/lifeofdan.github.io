@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
-    <lastBuildDate>Tue, 26 Sep 2017 11:05:34 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Oct 2017 23:25:57 +1000</lastBuildDate>
     
 	<atom:link href="https://lifeofdan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Music, Roms, Code, Enjoyment</title>
+      <link>https://lifeofdan.github.io/posts/music-roms-code-enjoyment/</link>
+      <pubDate>Sun, 01 Oct 2017 23:25:57 +1000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/music-roms-code-enjoyment/</guid>
+      <description>So, this is a post about some of my favorite things at the moment. There is no real point to the post. I just have things that make me happy and I want to share those things with&amp;hellip;no one. Cause no one reads this blog. Or at least I assume no one does. If anyone does, feel free to contact me and say hello. :)
+Visual Studio Code So, firstly.</description>
+    </item>
     
     <item>
       <title>Matthew23 WoeToYou Part 4</title>

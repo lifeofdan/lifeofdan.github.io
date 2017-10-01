@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on lifeofdan</title>
-    <link>https://lifeofdan.github.io/tags/linux/</link>
-    <description>Recent content in Linux on lifeofdan</description>
+    <title>Solus Os on lifeofdan</title>
+    <link>https://lifeofdan.github.io/tags/solus-os/</link>
+    <description>Recent content in Solus Os on lifeofdan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
     <lastBuildDate>Sun, 01 Oct 2017 23:25:57 +1000</lastBuildDate>
     
-	<atom:link href="https://lifeofdan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lifeofdan.github.io/tags/solus-os/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,15 +21,6 @@
       <guid>https://lifeofdan.github.io/posts/music-roms-code-enjoyment/</guid>
       <description>So, this is a post about some of my favorite things at the moment. There is no real point to the post. I just have things that make me happy and I want to share those things with&amp;hellip;no one. Cause no one reads this blog. Or at least I assume no one does. If anyone does, feel free to contact me and say hello. :)
 Visual Studio Code So, firstly.</description>
-    </item>
-    
-    <item>
-      <title>KDE Neon Frustrations...</title>
-      <link>https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/</link>
-      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
-      <author>contact@lifeofdan.me (Dan)</author>
-      <guid>https://lifeofdan.github.io/posts/2017-03-16-kde-neon-frustrations/</guid>
-      <description>It has been a month since my last post. I seem to be churning out one of these a month, and that is okay with me. I normally stop doing this after a couple of days. I really like being able to keep track of the work I am doing and being able to access it remotely from a variety of devices. I don&amp;rsquo;t want to make this site something that has ways to comment or anything like that.</description>
     </item>
     
   </channel>
