@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Communion Meditations on lifeofdan</title>
-    <link>https://lifeofdan.github.io/communion-meditations/</link>
-    <description>Recent content in Communion Meditations on lifeofdan</description>
+    <title>Communion on lifeofdan</title>
+    <link>https://lifeofdan.github.io/tags/communion/</link>
+    <description>Recent content in Communion on lifeofdan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
-    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lifeofdan.github.io/communion-meditations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lifeofdan.github.io/tags/communion/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1 John</title>
+      <link>https://lifeofdan.github.io/bible-studies/1john/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/1john/</guid>
+      <description>1 John Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place
+Who is writing the book? Answer: The Apostle John the son of Zebedee, the disciple whom Jesus loved
+Who is the book written to? Answer: Christians. It is not specific in exactly who it is written to, but it is obviously written to believers.
+For what time and purpose is the book written? Answer: Christian Age.</description>
+    </item>
     
     <item>
       <title>Let Me Be Overtaken</title>
@@ -22,6 +34,19 @@
       <description>Recently I have begun to listen to the Psalms as I am driving around. I find most of them to be comforting or encouraging. The language is so grand. For example:
 Psalms 1:1-2 starts this book out&amp;hellip;
  Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers; but his delight is in the law of the Lord, and on his law he meditates day and night.</description>
+    </item>
+    
+    <item>
+      <title>Matthew</title>
+      <link>https://lifeofdan.github.io/bible-studies/matthew/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/matthew/</guid>
+      <description>Matthew Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place.
+Who is writing the book? Answer: The Disciple Matthew
+Who is the book written to? Answer: Jewish Christians
+For what time and purpose is the book written? Answer: Christian Age. It is written to tell Jewish Christians about Jesus Christ.
+Chapter 1 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 2 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 3 Introduction Has AATorP Changed?</description>
     </item>
     
     <item>

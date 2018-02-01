@@ -63,8 +63,28 @@
   </url>
   
   <url>
+    <loc>https://lifeofdan.github.io/bible-studies/1john/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lifeofdan.github.io/posts/2017-02-16-the-newness-has-worn-off/</loc>
     <lastmod>2017-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/bible-studies/matthew/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,15 +98,12 @@
   </url>
   
   <url>
-    <loc>https://lifeofdan.github.io/bible-studies/1john/</loc>
-  </url>
-  
-  <url>
     <loc>https://lifeofdan.github.io/page/about/</loc>
   </url>
   
   <url>
     <loc>https://lifeofdan.github.io/bible-studies/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,7 +125,14 @@
   </url>
   
   <url>
+    <loc>https://lifeofdan.github.io/tags/communion/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lifeofdan.github.io/communion-meditations/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -137,10 +161,6 @@
   </url>
   
   <url>
-    <loc>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</loc>
-  </url>
-  
-  <url>
     <loc>https://lifeofdan.github.io/tags/lineage-os/</loc>
     <lastmod>2017-10-01T23:25:57+10:00</lastmod>
     <priority>0</priority>
@@ -153,17 +173,9 @@
   </url>
   
   <url>
-    <loc>https://lifeofdan.github.io/bible-studies/matthew/</loc>
-  </url>
-  
-  <url>
     <loc>https://lifeofdan.github.io/tags/music/</loc>
     <lastmod>2017-10-01T23:25:57+10:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</loc>
   </url>
   
   <url>

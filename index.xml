@@ -134,6 +134,18 @@ This Christmas I built a new computer. Nothing super fancy, but a very nice upgr
     </item>
     
     <item>
+      <title>1 John</title>
+      <link>https://lifeofdan.github.io/bible-studies/1john/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/1john/</guid>
+      <description>1 John Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place
+Who is writing the book? Answer: The Apostle John the son of Zebedee, the disciple whom Jesus loved
+Who is the book written to? Answer: Christians. It is not specific in exactly who it is written to, but it is obviously written to believers.
+For what time and purpose is the book written? Answer: Christian Age.</description>
+    </item>
+    
+    <item>
       <title>the newness has worn off</title>
       <link>https://lifeofdan.github.io/posts/2017-02-16-the-newness-has-worn-off/</link>
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
@@ -141,6 +153,41 @@ This Christmas I built a new computer. Nothing super fancy, but a very nice upgr
       <guid>https://lifeofdan.github.io/posts/2017-02-16-the-newness-has-worn-off/</guid>
       <description>A second post? Whaaaaat! I cannot believe I am about to write the second post on a site that I have created. I really enjoy the process of creating the site and making it work. I generally don&amp;rsquo;t care about actually using it. But, this seems kind of special to me.
 I have been working more and more with git. I really like it. I haven&amp;rsquo;t really used the more advanced functions that it offers, but I believe I am learning the basics.</description>
+    </item>
+    
+    <item>
+      <title>Let Me Be Overtaken</title>
+      <link>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</guid>
+      <description>Recently I have begun to listen to the Psalms as I am driving around. I find most of them to be comforting or encouraging. The language is so grand. For example:
+Psalms 1:1-2 starts this book out&amp;hellip;
+ Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers; but his delight is in the law of the Lord, and on his law he meditates day and night.</description>
+    </item>
+    
+    <item>
+      <title>Matthew</title>
+      <link>https://lifeofdan.github.io/bible-studies/matthew/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/bible-studies/matthew/</guid>
+      <description>Matthew Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place.
+Who is writing the book? Answer: The Disciple Matthew
+Who is the book written to? Answer: Jewish Christians
+For what time and purpose is the book written? Answer: Christian Age. It is written to tell Jewish Christians about Jesus Christ.
+Chapter 1 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 2 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 3 Introduction Has AATorP Changed?</description>
+    </item>
+    
+    <item>
+      <title>Not What We Expect (What We Need)</title>
+      <link>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</guid>
+      <description>Revelation is an interesting book. Just making that statement probably fills most of you with worry. You are thinking &amp;ldquo;Oh dear, what is he going to say. What thing is he going to talk about that probably makes no sense whatsoever.&amp;rdquo; None the less, it is an interesting book, that is filled with hope for those who believe.
+The scripture I want to look at is:
+Revelation 5:1-5 ESV &amp;gt; 5 Then I saw in the right hand of him who was seated on the throne a scroll written within and on the back, sealed with seven seals.</description>
     </item>
     
     <item>
@@ -154,18 +201,6 @@ I am super excited, and if you are reading this&amp;hellip;don&amp;rsquo;t you h
     </item>
     
     <item>
-      <title>1 John</title>
-      <link>https://lifeofdan.github.io/bible-studies/1john/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>contact@lifeofdan.me (Dan)</author>
-      <guid>https://lifeofdan.github.io/bible-studies/1john/</guid>
-      <description>1 John Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place
-Who is writing the book? Answer: The Apostle John the son of Zebedee, the disciple whom Jesus loved
-Who is the book written to? Answer: Christians. It is not specific in exactly who it is written to, but it is obviously written to believers.
-For what time and purpose is the book written? Answer: Christian Age.</description>
-    </item>
-    
-    <item>
       <title>About me</title>
       <link>https://lifeofdan.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -173,41 +208,6 @@ For what time and purpose is the book written? Answer: Christian Age.</descripti
       <guid>https://lifeofdan.github.io/page/about/</guid>
       <description>Just your typical Christian, husband, father, teacher, minister, gamer, guitar player, linux enthusiast, computer builder, tech juknie.
 I love my family. I like virtually all things technology. I enjoy meeting with my Church. I enjoy all of the students that I teach. I like to play video games and I like learning new things. For example, I am learning about github and jekyll while putting up this website. Too cool. Hobbies are fun.</description>
-    </item>
-    
-    <item>
-      <title>Let Me Be Overtaken</title>
-      <link>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>contact@lifeofdan.me (Dan)</author>
-      <guid>https://lifeofdan.github.io/communion-meditations/psalmsch7-let-me-be-overtaken/</guid>
-      <description>Recently I have begun to listen to the Psalms as I am driving around. I find most of them to be comforting or encouraging. The language is so grand. For example:
-Psalms 1:1-2 starts this book out&amp;hellip;
- Blessed is the man who walks not in the counsel of the wicked, nor stands in the way of sinners, nor sits in the seat of scoffers; but his delight is in the law of the Lord, and on his law he meditates day and night.</description>
-    </item>
-    
-    <item>
-      <title>Matthew</title>
-      <link>https://lifeofdan.github.io/bible-studies/matthew/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>contact@lifeofdan.me (Dan)</author>
-      <guid>https://lifeofdan.github.io/bible-studies/matthew/</guid>
-      <description>Matthew Introduction to the Book (AATorP) AATorP is Author, Audience, Time or Place.
-Who is writing the book? Answer: The Disciple Matthew
-Who is the book written to? Answer: Jewish Christians
-For what time and purpose is the book written? Answer: Christian Age. It is written to tell Jewish Christians about Jesus Christ.
-Chapter 1 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 2 Introduction Has AATorP Changed? Synopsis of Chapter Verses Chapter 3 Introduction Has AATorP Changed?</description>
-    </item>
-    
-    <item>
-      <title>Not What We Expect (What We Need)</title>
-      <link>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>contact@lifeofdan.me (Dan)</author>
-      <guid>https://lifeofdan.github.io/communion-meditations/revch5-not-what-we-expect/</guid>
-      <description>Revelation is an interesting book. Just making that statement probably fills most of you with worry. You are thinking &amp;ldquo;Oh dear, what is he going to say. What thing is he going to talk about that probably makes no sense whatsoever.&amp;rdquo; None the less, it is an interesting book, that is filled with hope for those who believe.
-The scripture I want to look at is:
-Revelation 5:1-5 ESV &amp;gt; 5 Then I saw in the right hand of him who was seated on the throne a scroll written within and on the back, sealed with seven seals.</description>
     </item>
     
   </channel>
