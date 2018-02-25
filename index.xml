@@ -8,12 +8,17 @@
     <language>en-us</language>
     <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
+<<<<<<< HEAD
     <lastBuildDate>Tue, 13 Feb 2018 00:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Sun, 04 Feb 2018 00:00:00 +0000</lastBuildDate>
+>>>>>>> 23221be8f3647252179c0539025f9dca1f7f33a7
     
 	<atom:link href="https://lifeofdan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>He Was Heard</title>
       <link>https://lifeofdan.github.io/communion-meditations/hebrews57-8/</link>
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
@@ -25,6 +30,8 @@
     </item>
     
     <item>
+=======
+>>>>>>> 23221be8f3647252179c0539025f9dca1f7f33a7
       <title>Hebrews 12:18-29 - A Kingdom That Cannot Be Shaken</title>
       <link>https://lifeofdan.github.io/sermons/hebrews12-akingdomethatcannotbeshaken/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
