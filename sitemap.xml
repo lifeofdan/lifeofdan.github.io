@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lifeofdan.github.io/sermons/therewasaplan/</loc>
+    <lastmod>2018-03-31T11:05:34+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/communion-meditations/john197/</loc>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lifeofdan.github.io/posts/time-for-updates/</loc>
     <lastmod>2018-02-25T23:32:59+10:00</lastmod>
   </url>
@@ -109,7 +119,7 @@
   
   <url>
     <loc>https://lifeofdan.github.io/</loc>
-    <lastmod>2018-02-25T23:32:59+10:00</lastmod>
+    <lastmod>2018-03-31T11:05:34+10:00</lastmod>
   </url>
   
   <url>
@@ -141,13 +151,13 @@
   
   <url>
     <loc>https://lifeofdan.github.io/tags/communion/</loc>
-    <lastmod>2018-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lifeofdan.github.io/communion-meditations/</loc>
-    <lastmod>2018-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -212,13 +222,13 @@
   
   <url>
     <loc>https://lifeofdan.github.io/sermons/</loc>
-    <lastmod>2018-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-31T11:05:34+10:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lifeofdan.github.io/tags/sermons/</loc>
-    <lastmod>2018-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-31T11:05:34+10:00</lastmod>
     <priority>0</priority>
   </url>
   
