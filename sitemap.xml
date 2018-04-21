@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lifeofdan.github.io/posts/learning/</loc>
+    <lastmod>2018-04-21T23:20:10+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lifeofdan.github.io/sermons/joshua14-whollyfollowthelord/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lifeofdan.github.io/sermons/therewasaplan/</loc>
     <lastmod>2018-03-31T22:22:49+10:00</lastmod>
   </url>
@@ -119,7 +129,7 @@
   
   <url>
     <loc>https://lifeofdan.github.io/</loc>
-    <lastmod>2018-03-31T22:22:49+10:00</lastmod>
+    <lastmod>2018-04-21T23:20:10+10:00</lastmod>
   </url>
   
   <url>
@@ -210,7 +220,7 @@
   
   <url>
     <loc>https://lifeofdan.github.io/posts/</loc>
-    <lastmod>2018-02-25T23:32:59+10:00</lastmod>
+    <lastmod>2018-04-21T23:20:10+10:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -222,13 +232,13 @@
   
   <url>
     <loc>https://lifeofdan.github.io/sermons/</loc>
-    <lastmod>2018-03-31T22:22:49+10:00</lastmod>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lifeofdan.github.io/tags/sermons/</loc>
-    <lastmod>2018-03-31T22:22:49+10:00</lastmod>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

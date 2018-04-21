@@ -8,10 +8,20 @@
     <language>en-us</language>
     <managingEditor>contact@lifeofdan.me (Dan)</managingEditor>
     <webMaster>contact@lifeofdan.me (Dan)</webMaster>
-    <lastBuildDate>Sun, 25 Feb 2018 23:32:59 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Apr 2018 23:20:10 +1000</lastBuildDate>
     
 	<atom:link href="https://lifeofdan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning</title>
+      <link>https://lifeofdan.github.io/posts/learning/</link>
+      <pubDate>Sat, 21 Apr 2018 23:20:10 +1000</pubDate>
+      <author>contact@lifeofdan.me (Dan)</author>
+      <guid>https://lifeofdan.github.io/posts/learning/</guid>
+      <description>I love to learn. I love learning about new things. I like learning more about things I already know about. I like reaffirming things that I already thought I knew.
+Recently I have started learning PHP again. I have, so far, never really made it past the way that you need to think as a programmer. I understand everything that has to do with presenting things to the screen, but when it comes to taking in information or sorting and ordering information based on a set of needs and if this then that kind of statements, I start to get a little fuzzy.</description>
+    </item>
     
     <item>
       <title>Time Marches On</title>
